@@ -1,2 +1,3 @@
 # webdevportfolio
-A portfolio website of Dimitri Lavrentev
+
+A portfolio website of Dimitri Lavrentev.
