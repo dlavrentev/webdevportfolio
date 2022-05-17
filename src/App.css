@@ -99,3 +99,26 @@
 .button:active {
   transform: translateY(-1px);
 }
+
+.line {
+  border: solid #343232 2px;
+  width: 20%;
+  height: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 3rem;
+  color: #343232;
+  text-shadow:  2px 2px 1px #CFD228;
+  padding: 0px 40px;
+}
+
+.aboutme-container {
+  padding-top: 300px;
+}
