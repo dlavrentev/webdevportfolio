@@ -13,7 +13,7 @@ export default function AboutMe() {
     </div>
     
 
-    <img src={ProfilePic} height="200px"
+    <img src={ProfilePic} height="300px"
     width="300px"></img>
     
     
