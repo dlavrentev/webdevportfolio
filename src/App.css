@@ -122,3 +122,30 @@
 .aboutme-container {
   padding-top: 300px;
 }
+
+.aboutme-sec {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.aboutme-sec-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+}
+
+
+.aboutme-sec-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+.profilepic {
+  border-radius: 0px 0px 30px 0px;
+}
