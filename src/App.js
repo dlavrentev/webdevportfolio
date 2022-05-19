@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Introduction from './Components/Main/Introduction';
 import AboutMe from './Components/Main/AboutMe';
 import { Fade } from 'react-reveal';
+import Skills from './Components/Main/Skills';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Fade bottom>
     <AboutMe />
     </Fade>
+    <Skills />
     
     <Routes>
     </Routes>
