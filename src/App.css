@@ -151,3 +151,31 @@
 .profilepic:hover {
   filter: none;
 }
+
+.skills-content {
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-list-1, .skills-list-2, .skills-list-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.h2-pad {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+
