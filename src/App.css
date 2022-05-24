@@ -1,3 +1,5 @@
+
+
 .welcome {
   text-align: center;
 }
@@ -41,7 +43,10 @@
   height: 60px;
 }
 
-
+.header {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
 .introduction-container {
   display: flex;
   flex-direction: column;
@@ -119,14 +124,11 @@
   padding: 0px 40px;
 }
 
-.aboutme-container, .skills-container {
-  padding-top: 300px;
-}
+
 
 .aboutme-sec {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
   width: 80%;
   margin: 0 auto;
 }
@@ -179,3 +181,62 @@
 }
 
 
+/* CARDS FOR PROJECTS  */
+
+.card{
+  position:relative;
+  width: 250px;
+  height: 250px;
+  color:#a18a96;
+  background-color: #2F8288;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.card-content{
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color:#fff;
+  border-top-left-radius: 20px;
+  transform:translateY(70px);
+  transition:transform .25s;
+}
+.card-content::before {
+  content:'';
+  position: absolute;
+  top: -47px;
+  right: -45px;
+  width: 100px;
+  height: 100px;
+  transform:rotate(-175deg);
+  border-radius: 50%;
+  box-shadow: inset 48px 48px
+    rgb(255, 255, 255);
+}
+
+.card-title {
+  color: #a18a96;
+  line-height: 15px;
+}
+
+.card-subtitle {
+   display:block;
+   font-size:12px;
+   margin-bottom:10px;
+}
+.card-description{
+   font-size:14px;
+   opacity:0;
+   transition: opacity .5s;
+}
+.card:hover .card-content{
+   transform:translateY(0);
+}
+.card:hover .card-description{
+   opacity:1;
+   transition-delay:.25s;
+}

@@ -5,6 +5,8 @@ import Introduction from './Components/Main/Introduction';
 import AboutMe from './Components/Main/AboutMe';
 import { Fade } from 'react-reveal';
 import Skills from './Components/Main/Skills';
+import Projects from './Components/Main/Projects';
+import Contact from './Components/Main/Contact';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
     <AboutMe />
     </Fade>
     <Skills />
+    <Projects />
+    <Contact />
     
     <Routes>
     </Routes>

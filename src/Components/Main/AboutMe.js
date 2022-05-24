@@ -8,7 +8,7 @@ export default function AboutMe() {
     
     <div className='header'>
     <div className='line'></div>  
-    <div className='header-text'>About Me</div>
+    <div className='header-text'>Myself</div>
     <div className='line'></div>
     </div>
     
