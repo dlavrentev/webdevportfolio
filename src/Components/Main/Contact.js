@@ -27,15 +27,15 @@ export default function Contact() {
       </div>
       
       <div className='contactlinks'>
-          <img src={Instagram}/>
-          <img src={LinkedIn}/>
-          <img src={Twitter}/>
-          <img src={GitHub}/>
-          <img src={CodePen}/>
+          <img className='linkpadding' src={Instagram}/>
+          <img className='linkpadding' src={LinkedIn}/>
+          <img className='linkpadding' src={Twitter}/>
+          <img className='linkpadding' src={GitHub}/>
+          <img className='linkpadding' src={CodePen}/>
       </div>
-      <div>
-          <p>Designed and Built by Dimitri Lavrentev</p>
-      </div>
+      
+      <p className='autograph'>Designed and Built by Dimitri Lavrentev</p>
+      
       
       
 
