@@ -14,7 +14,7 @@ export default function Contact() {
         <div className='line'></div>
       </div>
    
-      <div>
+      <div className='andnow'>
         <h1>AND NOW?</h1>
         <p>Lorem ipsum dolor sit   amet consectetur adipisicing elit. Quae, reprehenderit! Neque
              consequatur velit. Lorem ipsum dolor sit   amet consectetur adipisicing elit. Quae, reprehenderit! Neque
@@ -32,7 +32,7 @@ export default function Contact() {
           <img src={Twitter}/>
           <img src={GitHub}/>
           <img src={CodePen}/>
-          <div>
+      <div>
             <p>Designed and Built by Dimitri Lavrentev</p>
           </div>
       </div>
