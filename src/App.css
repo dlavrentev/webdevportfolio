@@ -257,7 +257,10 @@
   padding-top: 60px;
 }
 
-
+.linkpadding {
+  padding-right: 8px;
+  padding-left: 8px;
+}
 
 .autograph {
   display: flex;
