@@ -249,3 +249,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.contactlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
